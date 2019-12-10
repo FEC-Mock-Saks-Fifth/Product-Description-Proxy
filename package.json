@@ -1,0 +1,24 @@
+{
+  "name": "product-description-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEC-Mock-Saks-Fifth/Product-Description-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEC-Mock-Saks-Fifth/Product-Description-Proxy/issues"
+  },
+  "homepage": "https://github.com/FEC-Mock-Saks-Fifth/Product-Description-Proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.0"
+  }
+}
