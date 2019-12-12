@@ -13,8 +13,8 @@ app.get('/product', (req, res) => {
       console.log('ERROR', err)
       res.status(404).send('ERROR')
     } else {
-      console.log('RESULT', JSON.stringify(result))
-      res.status(200).send(result)
+      console.log('RESULT', result)
+      res.status(200).send(result[0])
     }
   })
 })
